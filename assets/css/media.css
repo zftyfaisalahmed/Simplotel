@@ -1,0 +1,64 @@
+/* mobile version */
+@media(max-width:768px){
+    /* navbar */
+    header{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+        margin: auto;
+    }
+    header>nav>ul>li{
+        display: block;
+        margin: none;
+    }
+    header>nav>.icon{
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+    /* banner */
+    .commonBanner>.banner>.content{
+        margin: auto;
+        width: 60%;
+        height: 55%;
+    }
+    .commonBanner>.banner>.content>h1{
+        font-size: 20px;
+    }
+    /* Order */
+    .banner2>.item{
+        flex-flow: column;
+    }
+    .banner2>.item>.card{
+        width: 80%;
+    }
+}
+/* tablet version */
+@media(min-width:769px) and (max-width:1200px){
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>ul{
+        float: none;
+        margin: auto;
+    }
+    header>nav>.icon{
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .banner2>.item{
+        gap: 50px;
+    }
+    .content{
+        width: 100%;
+    }
+}
+
